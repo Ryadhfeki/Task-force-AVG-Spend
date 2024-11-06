@@ -4,7 +4,7 @@ from data_loading import *
 from data_processing import *
 from visualization import *
 
-# Main Streamlit App Navigation
+# Streamlit App Navigation
 st.sidebar.title("Streamlit Multi-Page App")
 page = st.sidebar.radio("Go to", ["Data Loading", "Data Processing", "Visualization"])
 
